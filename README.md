@@ -16,7 +16,14 @@ How does it work?
    as well as the `data`, `fonts` and `images` directories,
    to a web server (this is *very* important).
 4. Open the web page.
-5. Enjoy!
+5. Click the "Click to play/pause" link.
+6. Enjoy!
+
+Limitations
+------------
+Currently, it's not possible to control playback apart from
+pausing and resuming. Using the playback controls on the video player
+will break the synchronization between the video and the message stream.
 
 Technical details
 ------------------
