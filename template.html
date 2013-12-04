@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>The Double Fine Game Club!</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" type="image/png" href="images/dfgc_fav.png">
+    <link rel="stylesheet" href="data/default.css" type="text/css">
+
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="data/simulator.js" async="async"></script>
+
+    <script type='text/javascript'>
+        window.onPlayerLoad = function () {
+            window.playerLoaded = true;
+        };
+    </script>
+</head>
+
+<body>
+    <nav id="navMenu">
+        <img id="logo" src="images/dfgc_logo.png" alt="The Double Fine Game Club!">
+	</nav>
+
+	<section>
+        <hgroup id="pageHeader">
+            <h1>Welcome to The Double Fine Game Club!</h1>
+            <h2>A community run game play and discussion group (<a href="http://www.doublefine.com/forums/viewthread/10300">F.A.Q.</a>).</h2>
+        </hgroup>
+	</section>
+
+    <article id="main">			
+        <object type='application/x-shockwave-flash' id="live_embed_player_flash" data='http://www.twitch.tv/widgets/archive_embed_player.swf' height='378'>
+            <param name='allowFullScreen' value='true' />
+            <param name='allowScriptAccess' value='always' />
+            <param name='allowNetworking' value='all' />
+            <param name='movie' value='http://www.twitch.tv/widgets/archive_embed_player.swf' />
+            <param name='flashvars' value='' />
+        </object>
+
+        <div id="chat_sim"></div>
+
+        <p id="chatCloseInstructions"><a href="#" id="play_all" class="hidden">Click to play/pause.</a> <a href="#" id="wideChat" class="hidden" onclick="return false;">Click here</a> if you'd rather see the stream and chat panes side by side.</p>
+    </article>
+			
+    <article id="about">
+        <h1>What is Game Club?</h1>
+        <img class="rightImage" src="images/dfgc_logo.png" alt="The Double Fine Game Club!">
+        <p>The Double Fine Game Club is a community run weekly event where members of the Double Fine community and other adventure game fans come together to play and talk about the game currently being played (think of it as a book club for games). It's entirely informal and everybody is welcome!</p>
+        <p>More details can be found in our <a href="http://www.doublefine.com/forums/viewthread/10300/">F.A.Q.</a> whilst logs and further discussion can be found in specific Game Club threads on the <a href="http://www.doublefine.com/forums/viewforum/22/">Double Fine forums</a>. A list of Game Club threads can be found in <a href="http://www.doublefine.com/forums/viewthread/10300/#299346">Past Game Club Sesssions</a> post in our <a href="http://www.doublefine.com/forums/viewthread/10300/">F.A.Q. thread</a>.</p>
+        <p>From time to time we've also been joined by developers of a game we've been playing for a Q&amp;A session.</p>
+        <br class="clearfix">
+    </article>
+
+    <article id="how">
+        <h1>How can I get involved?</h1>
+        <p>It's easy!</p>
+        <p>Just visit <a href="http://double-fine-game-club.github.com/">this</a> page for details on the next Game Club session.</p>
+        <p>If you don't own the game or aren't interested in playing it again, don't worry. We almost always have somebody streaming a playthrough which you can watch from this page.</p>
+        <p>You can keep track of what's currently being played and join in on further discussion on the <a href="http://www.doublefine.com/forums/viewforum/22/">Double Fine forums</a>, and a <a href="http://www.doublefine.com/forums/viewthread/10300/#299346">list of Game Club threads</a> is kept in our <a href="http://www.doublefine.com/forums/viewthread/10300/">F.A.Q.</a>.</p>
+        <p>If you're keen to help with organising or streaming, say hi in the current Game Club planning thread. A link to the current planning thread can be found towards the bottom of the <a href="http://www.doublefine.com/forums/viewthread/10300">F.A.Q. thread</a>.</p>
+        <br class="clearfix">
+    </article>
+
+    <article id="dev">
+        <h1>Can you play my game?</h1>
+        <p>You're a developer and you'd like to know if we would be interested in playing your game for Game Club? Great!</p>
+        <p>First up, have a read through the <a href="http://www.doublefine.com/forums/viewthread/10300/#299350">Advice for Developers &amp; Special Guests</a> post in our <a href="http://www.doublefine.com/forums/viewthread/10300/">F.A.Q. thread</a>.</p>
+        <p>Whilst we generally focus on point and click adventure games, we are open to exploring other styles so long as the game at hand would be engaging within our format and encourage discussion.</p>
+        <p>Get in touch with us via <a href="http://twitter.com/dfgameclub">@DFGameClub</a> on Twitter, or by posting in the current Game Club planning thread (a link to the current planning thread can be found towards the bottom of the <a href="http://www.doublefine.com/forums/viewthread/10300">F.A.Q. thread</a>).
+        <br class="clearfix"></p>
+    </article>
+
+    <article id="history">
+        <h1>Where can I find information on old Game Club sessions?</h1>
+        <p>The Double Fine Game Club started out as an officially run community event for backers of the Double Fine Kickstarter project. Greg Rice of Double Fine, who passed the torch onto enthusiastic community members when he became less available. As a result, some of the earlier Game Club forum threads are only accessible to backers (if you missed out, you can still attain backer status from <a href="http://doublefine.com/dfa">here</a>).</p>
+        <p>A full list of current and previous Game Club sessions can be found in the <a href="http://www.doublefine.com/forums/viewthread/10300/#299346">'Past Game Club Sessions'</a> post in our <a href="http://www.doublefine.com/forums/viewthread/10300/">F.A.Q. thread</a>.</p>
+        <br class="clearfix">
+    </article>
+
+    <footer id="pageFooter">
+        <!-- for anybody who cares, this page was by Cheeseness (http://jbushproductions.com) to be HTML5 and CSS3 compliant, with additional Javascript by leitu. Inspired by http://ogweekly.com (when it was running weekly) -->
+    </footer>
+</body>
+
+</html>
