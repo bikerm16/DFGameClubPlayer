@@ -13,7 +13,7 @@ How does it work?
 2. Run the Python script with the configuration file as an argument
    (or run it without arguments to use the default name, `config.ini`).
 3. Upload the newly created `.html` and `.json` files,
-   as well as the `data`, `fonts` and `images` directories,
+   as well as the `javascript`, `styles`, `fonts` and `images` directories,
    to a web server (this is *very* important).
 4. Open the web page.
 5. Click the "Click to play/pause" link.

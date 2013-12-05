@@ -151,7 +151,7 @@ $.getJSON(filename, function(data) {
 
 $(document).ready(function() {
     $("#play_all").click(click_play).removeClass("hidden");
-    $.getScript("data/timer.js", function () {
+    $.getScript("javascript/timer.js", function () {
         $("#wideChat").removeClass("hidden");
     });
     chat_sim = $("#chat_sim");
