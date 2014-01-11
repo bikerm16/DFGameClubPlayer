@@ -1,3 +1,9 @@
+Notice
+=======
+
+The project has moved [here](https://github.com/Double-Fine-Game-Club/game-club-player).
+This repository will no longer be updated.
+
 DF Game Club Past Sessions Player
 ==================================
 
